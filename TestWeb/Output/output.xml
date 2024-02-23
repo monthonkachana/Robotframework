@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20240222 11:52:55.734" rpa="false" schemaversion="4">
+<suite id="s1" name="Google" source="C:\Users\areat\OneDrive\Desktop\RobotFramework\TestWeb\Tests\google.robot">
+<test id="s1-t1" name="Test" line="6">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.google.com/</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240222 11:52:55.927" level="INFO">Opening browser 'firefox' to base url 'https://www.google.com/'.</msg>
+<msg timestamp="20240222 11:52:56.737" level="WARN">The version of firefox cannot be detected. Trying with latest driver version</msg>
+<msg timestamp="20240222 11:52:59.867" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20240222 11:52:59.868" level="FAIL">SessionNotCreatedException: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
+</msg>
+<status status="FAIL" starttime="20240222 11:52:55.927" endtime="20240222 11:52:59.872"/>
+</kw>
+<status status="FAIL" starttime="20240222 11:52:55.926" endtime="20240222 11:52:59.872">SessionNotCreatedException: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
+</status>
+</test>
+<status status="FAIL" starttime="20240222 11:52:55.736" endtime="20240222 11:52:59.874"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Google">Google</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240222 11:52:56.737" level="WARN">The version of firefox cannot be detected. Trying with latest driver version</msg>
+</errors>
+</robot>

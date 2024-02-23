@@ -1,0 +1,24 @@
+//TestWeb
+ถ้าคุณต้องการทำการทดสอบ E2E บนเว็บแอปพลิเคชัน, คุณคงต้องการใช้ SeleniumLibrary. ส่วน 
+Standard Library ใช้สำหรับการทำงานทั่วไปของระบบและการทดสอบที่ไม่ต้องการให้ทำงานกับเว็บไซต์หรือเบราว์เซอร์
+robot -d Output Tests/TestCase.robot
+แสดง report ในforder Output
+-------------------
+ติดตั้ง เพื่อใช้รัน webdriver
+download chromedriver 
+check version chrome load 
+and download geckodriver
+ลากไปวาง forder python เหมือนเดิม
+ขก. ทำต่อ
+https://www.npmjs.com/package/selenium-standalone
+npm i selenium-standalone -g
+selenium-standalone install
+selenium-standalone start
+-----------------
+
+how to install demoapp
+
+pip install -r requirements.txt
+start demoapp
+python demoapp/server.py
+http://localhost:7272/
